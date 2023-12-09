@@ -1,0 +1,60 @@
+.head-projects {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.project-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10rem;
+  color: #68ee68;
+}
+
+.project-container > * {
+  width: 50%;
+}
+
+.project-container > div > h1 {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.project-container > div > h2 {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.project-container > div > h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.project-container > img {
+  height: 30rem;
+  width: 35rem;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .project-container {
+    flex-direction: column-reverse;
+  }
+  .project-container > * {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .project-container > img {
+    width: 21rem;
+    height: 21rem;
+    border-radius:10px;
+    margin-left: 1.25rem;
+    margin-bottom: 3rem;
+  }
+}

@@ -1,0 +1,71 @@
+.contact-head {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 4rem;
+}
+
+.divider {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.divider > div {
+  width: 50%;
+}
+
+.text-side {
+  padding: 0 2rem;
+  color: #68ee68;
+  font-size: 1.25rem;
+}
+
+.text-side > h2 {
+  line-height: 3rem;
+}
+.info-side > h2 {
+  font-size: 2.25rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.info-side > div > button {
+  padding: 0.6rem 1rem;
+  font-size: 3rem;
+  border: none;
+  border-radius: 50%;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.info-side > div > button > a {
+  color: #01bc01;
+}
+
+@media screen and (max-width: 600px) {
+  .divider {
+    flex-direction: column;
+  }
+  .divider > div {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-side {
+    padding: 0;
+  }
+  .info-side > h2 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .info-side {
+    margin-top: 2rem;
+  }
+
+  .text-side {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,89 @@
+.section-about {
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-about > div {
+  width: 50%;
+  padding: 2rem 0;
+}
+
+.head-about {
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.img-side > img {
+  height: 32rem;
+  width: 29rem;
+  clip-path: polygon(12% 0, 100% 0, 100% 86%, 25% 100%, 25% 100%, 0 100%);
+}
+
+.content-side > button {
+  padding: 0.8rem 4rem;
+  border: 1px solid black;
+  font-family: 'Nova Square', 'sans-serif';
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.active {
+  background: #68ee68;
+  color: black;
+}
+
+.content-side > h2 {
+  color: #68ee68;
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  line-height: 3rem;
+}
+
+.content-side > ul {
+  margin-top: 2rem;
+}
+
+.edu-list {
+  font-size: 1.7rem;
+  color:#68ee68;
+  margin-top: 2.5rem;
+  border-left: 1px solid white;
+  padding-left: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+@media screen and (max-width: 600px) {
+  .section-about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0.25rem;
+  }
+
+  .section-about > div {
+    width: 100%;
+    padding: 2rem 0.25rem;
+    text-align: center;
+  }
+
+  .img-side > img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    clip-path: none;
+  }
+
+  .content-side > button {
+    padding: 0.3rem 1.5rem;
+    display: inline-block;
+    border: none;
+  }
+
+  .style-btn {
+    height: 3rem;
+  }
+}

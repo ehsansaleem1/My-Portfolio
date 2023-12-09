@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:wght@500&family=Raleway:wght@600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Nova Square', sans-serif;
+  background: #1e1515;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1e1515;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #27dd27;
+  border-radius: 5px;
+  transition: .3s ease-in-out;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #68ee68;
+}
